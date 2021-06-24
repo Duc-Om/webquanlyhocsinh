@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <section class="section-login">
+        <div class="col-xs-2 col-sm-3 col-md-3  col-lg-4"></div>
+        <div class="col-xs-8 col-sm-6 col-md-6  col-lg-4 form-background">
+            <h1>class login form</h1>
+            <div class="col-xs-12 col-sm-12 col-md-12  col-lg-12">
+
+                <div class="row">
+                    <form action="" name="loginForm" method="POST">
+                        <div class="form-group">
+                            <div class=" col-sm-12 col-md-12  col-lg-12 form-item">
+                                <h3>Login Here</h3>
+                                <select name="School" id="school">
+                                    <option value="">Chọn Trường</option>
+                                    <option value="">Trường DT - NT Bát Xát</option>
+                                    <option value="">Trường Trung Học Phổ Thông Số 1</option>
+                                    <option value="">Trường Trung Học Phổ Thông Số 2</option>
+                                    <option value="">Trường Trung Học Phổ Thông Số 3</option>
+                                    <option value="">Trường GDTT Bát Xát</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class=" col-sm-12 col-md-12  col-lg-12 form-item">
+                                <input id="user" name="username" type="email" placeholder="Username or Email"
+                                    class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class=" col-sm-12 col-md-12  col-lg-12 form-item">
+                                <input type="password" id="password" name="password" placeholder="Password"
+                                    class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class=" col-sm-6 col-md-6  col-lg-6 form-item">
+                                <input type="checkbox" name="remember-me"> Remember Me!
+                            </div>
+                            <div class=" col-sm-6 col-md-6  col-lg-6 form-item resetpassword">
+                                <a href="#">Forgot Password?</a>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class=" col-sm-12 col-md-12  col-lg-12 form-item">
+                                <!-- Show message -->
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class=" col-sm-12 col-md-12  col-lg-12 form-item">
+                                <input type="submit" id="password" name="submit" class="btn-login" value="Login">
+                            </div>
+                        </div>
+
+                        <div class="form-group user-register">
+                            <div class=" col-sm-12 col-md-12  col-lg-12 form-item">
+                                <br> Don't Have an Account ?
+                                <a href="#">Register an account</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/bootstrap.js"></script>
+</body>
+
+</html>
